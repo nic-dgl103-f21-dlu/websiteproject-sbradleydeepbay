@@ -3,18 +3,39 @@ html {
     font-size: 62.5%;
 }
 body.BTT {
-font-family: 'Mohave', sans-serif;
+    background-color: #ccffff;
+    color: #333333;
+    font-family: 'Mohave', sans-serif;
+    margin: 0;
 }
 body.BTT nav ul {
     text-decoration: none;
 }
 
+/*Geocaching Trips Styles*/
+body.geo {
+    background-color: #ccffff;
+    color: #333333;
+    font-family: 'Mohave', sans-serif;
+    margin: 0;
+}
+/*Quote Styles*/
 
+body.quote {
+    background-color: #ccffff;
+    color: #333333;
+    font-family: 'Mohave', sans-serif;
+    margin: 0;
+}
 /*Travel Advisory Styles*/
+body.travel {
+    background-color: #ccffff;
+    color: #333333;
+    font-family: 'Mohave', sans-serif;
+    margin: 0;
+}
 
 
-/*Geocaching Trips Styles/*
 
 
 
-/*Travel Advisory Styles/*
