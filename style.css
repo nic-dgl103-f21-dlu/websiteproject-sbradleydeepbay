@@ -1,10 +1,20 @@
-/*Homepage styles*/
-body {
+/*general styles*/
+html {
+    font-size: 62.5%;
+}
+body.BTT {
 font-family: 'Mohave', sans-serif;
+}
+body.BTT nav ul {
+    text-decoration: none;
 }
 
 
 /*Travel Advisory Styles*/
-body {
-font-family: 'Mohave', sans-serif;
-}
+
+
+/*Geocaching Trips Styles/*
+
+
+
+/*Travel Advisory Styles/*
