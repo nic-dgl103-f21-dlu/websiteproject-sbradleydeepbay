@@ -2,145 +2,90 @@
 html {
     font-size: 62.5%;
 }
-body.BTT {
+body {
     background-color: #ccffff;
     color: #333333;
-    font-family: 'Mohave', sans-serif;
-    margin: 0;
-}
-header,
-article,
-aside,
-footer {
-  text-align: center;
+    font-family: Mohave, sans-serif;
+    text-align: center;
+    width: 800px;
+    margin: 150px auto;
 }
 
-body.BTT nav {
+body nav {
     padding: 40px;
     display: flex;
     flex-direction: column;
-  }
+   
+}
   
-body.BTT nav ul {
+body nav ul {
     list-style-type: none;
     text-decoration: none;
-    margin: 0;
-    padding: 0;
+    flex-direction: column;
+}
+body header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
    }
-  
+body.BTT About-Tara {
+    width: 800px;
+    margin: 150px auto;
+}
+body.BTT Client-Testimonials {
+    width: 800px;
+    margin: 150px auto;
+}
+
+
 /*Geocaching Trips Styles*/
-body.geo {
-    background-color: #ccffff;
-    color: #333333;
-    font-family: 'Mohave', sans-serif;
-    margin: 0;
-}
-header,
-section {
-  text-align: center;
-}
-body.geo nav {
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-body.geo nav ul {
-    list-style-type: none;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    flex-direction: column;
-   }
+
   
 /*Quote Styles*/
 
-body.quote {
-    background-color: #ccffff;
-    color: #333333;
-    font-family: 'Mohave', sans-serif;
-    margin: 0;
-}
-header,
-main {
-  text-align: center;
-}
-body.geo nav {
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-body.geo nav ul {
-    list-style-type: none;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    flex-direction: column;
-   }
+
 /*Travel Advisory Styles*/
-body.travel {
-    background-color: #ccffff;
-    color: #333333;
-    font-family: 'Mohave', sans-serif;
-    margin: 0;
-}
-main {
-  text-align: center;
-}
-body.travel nav {
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-body.travel nav ul {
-    list-style-type: none;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    flex-direction: column;
-   }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    body.BTT nav .menu-label {
+    body nav .menu-label {
       display: none;
     }
   
-    body.BTT nav ul {
+    body nav ul {
       display: flex;
       flex-direction: row;
     }
   
-    body.BTT nav ul li {
+    body nav ul li {
       padding-right: 20px;
     }
   
-    body.BTT  nav .toggle {
+    body nav .toggle {
       display: none;
     }
   
-    body.BTT main {
+    body main {
       display: flex;
+      flex-direction: column;
     }
   
-    body.BTT article {
+    body article {
       flex: 2 1 0;
       margin-right: 10px;
     }
-    body.BTT aside {
+    body aside {
       flex: 1 1 0;
     }
-  }
+  
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
-    body.BTT nav ul,
-    body.BTT main {
+    body nav ul,
+    body main {
       width: 1200px;
       margin: 0 auto;
-    }
-  }
-
+     }
+  
+    
