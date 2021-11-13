@@ -1,4 +1,4 @@
-/*general styles*/
+/*BTT styles*/
 html {
     font-size: 62.5%;
 }
@@ -49,6 +49,9 @@ main {
     margin: auto;
     display: flex;
 }
+.Client-Testimonials {
+    display:flex;
+}
 aside {
     border: 2px solid #004a5f;
     padding: 15px;
@@ -57,7 +60,6 @@ aside {
     flex-grow: 1;
     flex-wrap: wrap;
     align-content: space-between;
-
 }
 footer {
     background-color: #004a5f;
@@ -188,7 +190,6 @@ footer {
     background-color: #004a5f;
     color: black;
 }
-
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
