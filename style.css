@@ -6,11 +6,11 @@ body {
     background-color: #ccffff;
     color: #333333;
     font-family: Mohave, sans-serif;
-    text-align: center;
-}
+ }
 .Header-Home {
+    display: flex;
     background-image: url(images/tahitiweb.png);
-    background-color: #004a5f;
+    background-size: cover;
 }
 .Header-Home h1 {
     color:#ccffff;
