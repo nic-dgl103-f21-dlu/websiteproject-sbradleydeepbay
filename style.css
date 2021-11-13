@@ -50,10 +50,21 @@ main {
     display: flex;
 }
 .Client-Testimonials {
-    display: flex;
+    display: flex; 
+    flex-basis: 0;
+    flex-grow: 1;
     text-align: left;
-    justify-content: space-between;
+    padding: 0 15px;
+    justify-content: space-around;
+  
 }
+.test1 {
+    padding: 0 30px;
+}
+.test2 {
+    padding: 0 30px;
+}
+
 aside {
     border: 2px solid #004a5f;
     padding: 15px;
