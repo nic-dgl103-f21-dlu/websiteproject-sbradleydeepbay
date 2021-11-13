@@ -65,12 +65,130 @@ footer {
 }
 
 /*Geocaching Trips Styles*/
+body {
+    background-color: #ccffff;
+    color: #333333;
+    font-family: Mohave, sans-serif;
+    text-align: center;
+}
+nav .wrapper {
+    width: 800px;
+    margin: auto;
+    padding: 0 15px;
+}
+  
+nav ul {
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li a {
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #004a5f;
+}
+nav li a:hover {
+      color: black;
+}
+main {
+    padding: 15px;
+    width: 800px;
+    margin: auto;
+    display: flex;
+}
+footer {
+    background-color: #004a5f;
+    color: black;
+}
 
   
 /*Quote Styles*/
+body {
+    background-color: #ccffff;
+    color: #333333;
+    font-family: Mohave, sans-serif;
+    text-align: center;
+}
+nav .wrapper {
+    width: 800px;
+    margin: auto;
+    padding: 0 15px;
+}
+  
+nav ul {
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li a {
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #004a5f;
+}
+nav li a:hover {
+      color: black;
+}
+main {
+    padding: 15px;
+    width: 800px;
+    margin: auto;
+    display: flex;
+}
+footer {
+    background-color: #004a5f;
+    color: black;
+}
 
 
 /*Travel Advisory Styles*/
+body {
+    background-color: #ccffff;
+    color: #333333;
+    font-family: Mohave, sans-serif;
+    text-align: center;
+}
+nav .wrapper {
+    width: 800px;
+    margin: auto;
+    padding: 0 15px;
+}
+  
+nav ul {
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li a {
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #004a5f;
+}
+nav li a:hover {
+      color: black;
+}
+main {
+    padding: 15px;
+    width: 800px;
+    margin: auto;
+    display: flex;
+}
+footer {
+    background-color: #004a5f;
+    color: black;
+}
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
