@@ -50,7 +50,9 @@ main {
     display: flex;
 }
 .Client-Testimonials {
-    display:flex;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
 }
 aside {
     border: 2px solid #004a5f;
