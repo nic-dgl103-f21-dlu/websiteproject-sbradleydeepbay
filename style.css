@@ -20,16 +20,19 @@ body {
     width: 800px;
     margin: 150px auto;
 }
-nav {
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-}
+/*Start Navigation*/
+nav .wrapper {
+    width: 800px;
+    margin: auto;
+    padding: 0 15px;
+  }
   
 nav ul {
+    display: flex;
+    justify-content:space-between;
     list-style-type: none;
-    flex-direction: column;
-    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 nav li a {
     padding: 15px;
@@ -38,16 +41,16 @@ nav li a {
     font-size: 1.5rem;
     color: #004a5f;
 }
-
-body.BTT About-Tara {
-    width: 800px;
-    margin: 150px auto;
+nav li a:hover {
+      color: black;
 }
-body.BTT Client-Testimonials {
+/*End Navigation*/
+main {
+    padding: 15px;
     width: 800px;
-    margin: 150px auto;
+    margin: auto;
+    display: flex;
 }
-
 
 /*Geocaching Trips Styles*/
 
