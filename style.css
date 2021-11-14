@@ -14,8 +14,15 @@ body {
 }
 .Header-Home h1 {
     color:#ccffff;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Amatic SC', cursive;
     font-size: 3rem;
+}
+
+.container {
+    display:flex;
+    flex-direction:row;
+    width: 100vw;
+    height: 100vh;
 }
 
 /*Start Navigation*/
