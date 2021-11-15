@@ -5,7 +5,7 @@ html {
 body {
     background-color: #ccffff;
     color: #333333;
-    font-family: Mohave, sans-serif;
+    font-family: 'Mohave', sans-serif;
  }
 .Header-Home {
     display: flex;
@@ -13,14 +13,14 @@ body {
     background-size: cover;
 }
 .Header-Home h1 {
-    color:#ccffff;
+    color: #004a5f;
     font-family:'Amatic SC', cursive;
     font-size: 3rem;
 }
 
 .container {
-    display:flex;
-    flex-direction:row;
+    display: flex;
+    flex-direction: row;
     width: 100vw;
     height: 100vh;
 }
