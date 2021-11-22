@@ -1,39 +1,73 @@
-/*Index styles*/
+/*Global Settings*/
+* {box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;
 }
+/*Typography*/
 body {
     background-color: #ccffff;
     color: #333333;
     font-family: 'Mohave', sans-serif;
  } 
- .hero {     
-     display: flex;
-     position: relative;
-     width: 100vw;
-     height: 100vh;
- }
- .hero::before {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-     background: url(images/tahitiweb3.jpg);
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center center;
-     filter: brightness 60%;
 
+/*Layout Structure*/
+nav,
+footer {
+  border: 2px solid #004a5f;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
-.hero-content {
-    position: relative;
+header,
+article,
+footer {
+text-align: center;
 }
 h1 {
+     color: #004a5f;
+     font-family:'Amatic SC', cursive;
+     font-size: 3rem;
+    }
+.Client-Testimonials {
+        display: flex; 
+        flex-direction: column;
+        margin: 20px;
+      }
+.test1 {
+    background-color: white;
     color: #004a5f;
-    font-family:'Amatic SC', cursive;
-    font-size: 3rem;
+    border: 2px solid #004a5f;
+    border-radius: 5px;
+    padding: 20px;
+   }
+.test2 {
+    background-color: white;
+    color: #004a5f;
+    border: 2px solid #004a5f;
+    border-radius: 5px;
+    padding: 20px;
 }
+aside {
+        background-color: #13f3f3;
+        color: #004a5f;
+        padding: 12px 20px;
+        margin: 20px 100px 20px 100px;
+        border: 1px solid #004a5f;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px;
+        cursor: pointer;
+    }
+
+footer {
+    background-color: #004a5f;
+    color: black;
+}
+    
+/*Index styles*/
+
+
+ 
 
 
 /*Start Navigation*/
@@ -45,7 +79,7 @@ nav .wrapper {
   
 nav ul {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -62,224 +96,3 @@ nav li a:hover {
 }
 /*End Navigation*/
 
-main {
-    padding: 15px;
-    width: 800px;
-    margin: auto;
-    display: flex;
-}
-.Client-Testimonials {
-    display: flex; 
-    flex-basis: 0;
-    flex-grow: 4;
-    text-align: left;
-    padding: 0 15px;
-    justify-content: space-around;
-  
-}
-.test1 {
-    padding: 0 30px;
-}
-.test2 {
-    padding: 0 30px;
-}
-
-aside {
-    border: 2px solid #004a5f;
-    border-radius: 15px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    flex-basis: 0;
-    flex-grow: 1;
-    align-content: space-between;
-    
-}
-footer {
-    background-color: #004a5f;
-    color: black;
-}
-
-/*Geocaching Trips Styles*/
-body {
-    background-color: #ccffff;
-    color: #333333;
-    font-family: Mohave, sans-serif;
-    text-align: center;
-}
-.Header-Geo {
-    background-color: #004a5f;
-    color: white;
-}
-.Header-Home h1 {
-    color:#ccffff;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 3rem;
-}
-nav .wrapper {
-    width: 800px;
-    margin: auto;
-    padding: 0 15px;
-}
-  
-nav ul {
-    display: flex;
-    justify-content:space-between;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-nav li a {
-    padding: 15px;
-    display: inline-block;
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: #004a5f;
-}
-nav li a:hover {
-      color: black;
-}
-main {
-    padding: 15px;
-    width: 800px;
-    margin: auto;
-    display: flex;
-}
-footer {
-    background-color: #004a5f;
-    color: black;
-}
-
-  
-/*Quote Styles*/
-body {
-    background-color: #ccffff;
-    color: #333333;
-    font-family: Mohave, sans-serif;
-    text-align: center;
-}
-.Header-Quote {
-    background-color: #004a5f;
-}
-.Header-Quote h1 {
-    color:#ccffff;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 3rem;
-}
-nav .wrapper {
-    width: 800px;
-    margin: auto;
-    padding: 0 15px;
-}
-  
-nav ul {
-    display: flex;
-    justify-content:space-between;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-nav li a {
-    padding: 15px;
-    display: inline-block;
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: #004a5f;
-}
-nav li a:hover {
-      color: black;
-}
-main {
-    padding: 15px;
-    width: 800px;
-    margin: auto;
-    display: flex;
-}
-footer {
-    background-color: #004a5f;
-    color: black;
-}
-
-
-/*Travel Advisory Styles*/
-body {
-    background-color: #ccffff;
-    color: #333333;
-    font-family: Mohave, sans-serif;
-    text-align: center;
-}
-.Header-Travel {
-    background-color: #004a5f;
-}
-.Header-Travel h1 {
-    color:#ccffff;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 3rem;
-}
-nav .wrapper {
-    width: 800px;
-    margin: auto;
-    padding: 0 15px;
-}
-  
-nav ul {
-    display: flex;
-    justify-content:space-between;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-nav li a {
-    padding: 15px;
-    display: inline-block;
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: #004a5f;
-}
-nav li a:hover {
-      color: black;
-}
-main {
-    padding: 15px;
-    width: 800px;
-    margin: auto;
-    display: flex;
-}
-footer {
-    background-color: #004a5f;
-    color: black;
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-
-  
-    body nav ul {
-      display: flex;
-      flex-direction: row;
-    }
-  
-    body nav ul li {
-      padding-right: 20px;
-    }
-  
-    body nav .toggle {
-      display: none;
-    }
-  
-    body main {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    body article {
-      flex: 2 1 0;
-      margin-right: 10px;
-    }
-    body aside {
-      flex: 1 1 0;
-    }
-  
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
- 
-  
