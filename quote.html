@@ -29,16 +29,43 @@
     </nav>
 
     <main>
-      <dl>
-        <dt>Name</dt>
-        <dt>Email</dt>
-        <dt>Phone Number</dt>
-        <dt>Destination Interest</dt>
-        <dt>Start Date</dt>
-        <dt>End Date</dt>
-        <dt>Number of Travelers</dt>
-      </dl>
-    </main>
-    <footer></footer>
+      <div class="wrapper-form">
+        <h2>Request a Quote</h2>
+        <form
+          name="Request a Quote"
+          method="post"
+          action="https://learndigital.dev/programs/dgl103-form.php"
+        >
+          <label for="myName">Name:<span class="label-required">* (required)</span></label>
+          <input type="text" name="myName" id="myName"/>
+
+          <label for="myEmail">E-Mail:<span class="label-required">* (required)</span></label>
+          <input type="text" name="myEmail" id="myEmail" />
+
+          <label for="telephone">Telephone Number:</label>
+          <input type="tel" name="telephone" id="telephone" />
+
+          <label for="destinationInterest"> Destination Interest:</label>
+          <input type="text" name="destinationInterest" id="destinationInterest" />
+
+          <label for="startDate"> Start Date:</label>
+          <input type="date" name="startDate" id="startDate" />
+
+          <label for="endDate"> End Date:</label>
+          <input type="date" name="endDate" id="endDate" />
+
+          <label for="numberofTravelers"> Number of Travelers:</label>
+          <input type="number" name="numberofTravelers" id="numberofTravelers"/>
+          
+        </form>
+      </div>
+      <div class="wrapper-button">
+        <input type="reset" value="Reset" />
+        <input type="submit" value="Submit" />
+      </div>
+    </article>
+  </main>
+    
+    <footer> “This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.”</footer>
   </body>
 </html>
