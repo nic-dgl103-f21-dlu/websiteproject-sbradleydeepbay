@@ -5,7 +5,13 @@
 body {
     background-color: #ccffff;
     color: #333333;
+    font-family: 'Mohave', sans-serif;
     }
+h1 {font-family: 'Amatic SC', cursive;
+    color: #004a5f;
+    font-style: bold;
+}
+
 header,
 main,
 aside,
@@ -41,6 +47,8 @@ nav li a:hover {
 
 footer {
     border: 2px solid #004a5f;
+    background-color:#004a5f;
+    color:aliceblue;
     margin-bottom: 10px;
     border-radius: 5px;
 }
