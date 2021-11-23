@@ -2,50 +2,51 @@
 * {box-sizing: border-box;
 }
 
-html {
-    font-size: 62.5%;
+body, html {
+       height: 100%;
+       margin: 0;
+       font-family: 'Mohave', sans-serif;
 }
 /*Typography*/
 body {
     background-color: #ccffff;
     color: #333333;
-    font-family: 'Mohave', sans-serif;
- } 
+} 
+/*The hero image*/ 
+ .hero-image {
+background-image: url("images/tahitiweb3.jpg");
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
 
+.hero-text {
+   text-align: center;
+   position: absolute;
+   font-family: 'Amatic SC', cursive;
+   color: #004a5f;
+   font-style: bold;
+   }
 /*Layout Structure*/
-nav,
+
 footer {
   border: 2px solid #004a5f;
   margin-bottom: 10px;
   border-radius: 5px;
 }
-header,
+
 article,
 footer {
 text-align: center;
 }
-.hero {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    height: 100vh;
-    background: url(images/tahitiweb3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    }
 
-.hero-title {
-    font-family: 'Amatic SC', cursive;
-    color: #004a5f;
-    text-align: center;
-    justify-content: flex-end;   
- }
 .Client-Testimonials {
         display: flex; 
         flex-direction: column;
         margin: 20px;
-      }
+}
 .test1 {
     background-color: white;
     color: #004a5f;
@@ -73,7 +74,7 @@ aside {
 
 footer {
     background-color: #004a5f;
-    color: black;
+    color: white;
 }
     
 /*Index styles*/
@@ -145,7 +146,8 @@ input[type="submit"]:hover {
   
 .wrapper-form {
     border-radius: 20px;
-    background-color: #ccffff;
+    background-color: #004a5f;
+    color: white;
     padding: 20px;
     max-width: 500px;
     margin: 0 auto;
@@ -208,5 +210,5 @@ input[type="number"] {
   }
  .label-required {
     font-size: 1rem;
-    color: red;
+    color: rgb(192, 99, 99);
   }
