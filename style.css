@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
     background-color: #ccffff;
     color: #333333;
@@ -39,6 +43,112 @@ footer {
     border: 2px solid #004a5f;
     margin-bottom: 10px;
     border-radius: 5px;
+}
+/*Quote Styles*/
+/*Form Controls*/
+.input {
+    font-size: 1em;
+  }
+  
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+   input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+ .label-required {
+    font-size: 1rem;
+    color: rgb(192, 99, 99);
+  }
+
+/*Buttons*/
+input[type="reset"] {
+  background-color: #ccffff;
+  color: #004a5f;
+  padding: 12px 20px;
+  margin: 20px;
+  border: 1px solid #004a5f;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background-color: #004a5f;
+  color: #ccffff;
+  border: 1px solid;
+}
+
+input[type="submit"] {
+  background-color: #004a5f;
+  color: white;
+  padding: 12px 20px;
+  margin: 20px;
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ccffff;
+  color: #004a5f;
+  border: 1px solid #004a5f;
+}
+/*Structure*/
+  
+.wrapper-form {
+    border-radius: 20px;
+    background-color: #004a5f;
+    color: white;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+.wrapper-button {
+    display: flex;
+    justify-content: center;
+  }
+
 
 /*store and start again
 body, html {
@@ -147,107 +257,6 @@ nav li a:hover {
       color: black;
 }
 /*End Navigation*/
-/*Quote Styles*/
 
-/*Buttons
-input[type="reset"] {
-  background-color: #ccffff;
-  color: #004a5f;
-  padding: 12px 20px;
-  margin: 20px;
-  border: 1px solid #004a5f;
-  border-radius: 4px;
-  cursor: pointer;
-}
 
-input[type="reset"]:hover {
-  background-color: #004a5f;
-  color: #ccffff;
-  border: 1px solid;
-}
 
-input[type="submit"] {
-  background-color: #004a5f;
-  color: white;
-  padding: 12px 20px;
-  margin: 20px;
-  border: 1px solid white;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #ccffff;
-  color: #004a5f;
-  border: 1px solid #004a5f;
-}
-/*Structure
-  
-.wrapper-form {
-    border-radius: 20px;
-    background-color: #004a5f;
-    color: white;
-    padding: 20px;
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
-.wrapper-button {
-    display: flex;
-    justify-content: center;
-  }
-/*Form Controls
-.input {
-    font-size: 1em;
-  }
-  
-input[type="text"] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-input[type="email"] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-input[type="tel"] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-input[type="number"] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-   input[type="date"] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
- .label-required {
-    font-size: 1rem;
-    color: rgb(192, 99, 99);
-  }
