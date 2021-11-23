@@ -1,18 +1,57 @@
-/*Global Settings*/
-* {box-sizing: border-box;
+body {
+    background-color: #ccffff;
+    color: #333333;
+    }
+header,
+main,
+aside,
+footer {
+    text-align: center;
 }
 
+/*Start Navigation*/
+
+nav .wrapper {
+    width: 800px;
+    margin: auto;
+    padding: 0 15px;
+}
+  
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li a {
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #004a5f;
+}
+nav li a:hover {
+      color: black;
+}
+
+footer {
+    border: 2px solid #004a5f;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+/*store and start again
 body, html {
        height: 100%;
        margin: 0;
        font-family: 'Mohave', sans-serif;
 }
-/*Typography*/
+/*Typography
 body {
     background-color: #ccffff;
     color: #333333;
 } 
-/*The hero image*/ 
+/*The hero image
  .hero-image {
 background-image: url("images/tahitiweb3.jpg");
 height: 100%;
@@ -29,7 +68,7 @@ position: relative;
    color: #004a5f;
    font-style: bold;
    }
-/*Layout Structure*/
+/*Layout Structure
 
 footer {
   border: 2px solid #004a5f;
@@ -83,7 +122,7 @@ footer {
  
 
 
-/*Start Navigation*/
+/*Start Navigation
 nav .wrapper {
     width: 800px;
     margin: auto;
@@ -110,7 +149,7 @@ nav li a:hover {
 /*End Navigation*/
 /*Quote Styles*/
 
-/*Buttons*/
+/*Buttons
 input[type="reset"] {
   background-color: #ccffff;
   color: #004a5f;
@@ -142,7 +181,7 @@ input[type="submit"]:hover {
   color: #004a5f;
   border: 1px solid #004a5f;
 }
-/*Structure*/
+/*Structure
   
 .wrapper-form {
     border-radius: 20px;
@@ -157,7 +196,7 @@ input[type="submit"]:hover {
     display: flex;
     justify-content: center;
   }
-/*Form Controls*/
+/*Form Controls
 .input {
     font-size: 1em;
   }
