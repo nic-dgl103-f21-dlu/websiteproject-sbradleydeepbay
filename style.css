@@ -24,11 +24,23 @@ article,
 footer {
 text-align: center;
 }
-h1 {
-     color: #004a5f;
-     font-family:'Amatic SC', cursive;
-     font-size: 3rem;
+.hero {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background: url(images/tahitiweb3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     }
+
+.hero-title {
+    font-family: 'Amatic SC', cursive;
+    color: #004a5f;
+    text-align: center;
+    justify-content: flex-end;   
+ }
 .Client-Testimonials {
         display: flex; 
         flex-direction: column;
