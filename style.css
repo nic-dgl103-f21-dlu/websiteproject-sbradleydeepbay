@@ -152,6 +152,11 @@ input[type="submit"]:hover {
     justify-content: center;
   }
 /*Index Styles*/
+.About-Us {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
 .Client-Testimonials {
     display: flex; 
     flex-direction: column;
