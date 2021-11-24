@@ -1,4 +1,4 @@
-* {
+* {    
     box-sizing: border-box;
   }
 
@@ -6,7 +6,8 @@ body {
     background-color: #ccffff;
     color: #333333;
     font-family: 'Mohave', sans-serif;
-    }
+}
+
 h1 {font-family: 'Amatic SC', cursive;
     color: #004a5f;
     font-style: bold;
@@ -20,13 +21,7 @@ footer {
 }
 
 /*Start Navigation*/
-
-nav .wrapper {
-    width: 800px;
-    margin: auto;
-    padding: 0 15px;
-}
-  
+ 
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -156,19 +151,56 @@ input[type="submit"]:hover {
     display: flex;
     justify-content: center;
   }
+/*Index Styles*/
+.Client-Testimonials {
+    display: flex; 
+    flex-direction: column;
+    margin: 20px;
+}
+.test1 {
+background-color: white;
+color: #004a5f;
+border: 2px solid #004a5f;
+border-radius: 5px;
+padding: 20px;
+}
+.test2 {
+background-color: white;
+color: #004a5f;
+border: 2px solid #004a5f;
+border-radius: 5px;
+padding: 20px;
+}
+aside {
+    background-color: #13f3f3;
+    color: #004a5f;
+    padding: 12px 20px;
+    margin: 20px 100px 20px 100px;
+    border: 1px solid #004a5f;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    cursor: pointer;
+}
+/*Geo Styles*/
+h3 {
+    text-align: center;
+}
+/*Travel Styles* - I copied the select list from the Canadian Government Travel advisory website. https://travel.gc.ca/travelling/advisories */
 
+input[type="Go!"] {
+    background-color: #ccffff;
+    color: #004a5f;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border: 3px solid #004a5f;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
 /*store and start again
-body, html {
-       height: 100%;
-       margin: 0;
-       font-family: 'Mohave', sans-serif;
-}
-/*Typography
-body {
-    background-color: #ccffff;
-    color: #333333;
-} 
+
+
 /*The hero image
  .hero-image {
 background-image: url("images/tahitiweb3.jpg");
@@ -186,48 +218,7 @@ position: relative;
    color: #004a5f;
    font-style: bold;
    }
-/*Layout Structure
 
-footer {
-  border: 2px solid #004a5f;
-  margin-bottom: 10px;
-  border-radius: 5px;
-}
-
-article,
-footer {
-text-align: center;
-}
-
-.Client-Testimonials {
-        display: flex; 
-        flex-direction: column;
-        margin: 20px;
-}
-.test1 {
-    background-color: white;
-    color: #004a5f;
-    border: 2px solid #004a5f;
-    border-radius: 5px;
-    padding: 20px;
-   }
-.test2 {
-    background-color: white;
-    color: #004a5f;
-    border: 2px solid #004a5f;
-    border-radius: 5px;
-    padding: 20px;
-}
-aside {
-        background-color: #13f3f3;
-        color: #004a5f;
-        padding: 12px 20px;
-        margin: 20px 100px 20px 100px;
-        border: 1px solid #004a5f;
-        border-radius: 10px;
-        box-shadow: 5px 5px 5px;
-        cursor: pointer;
-    }
 
 footer {
     background-color: #004a5f;
