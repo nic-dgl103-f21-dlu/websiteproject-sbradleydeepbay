@@ -1,107 +1,101 @@
-* {    
-    box-sizing: border-box;
-  }
-
-body {
-    background-color: #ccffff;
-    color: #333333;
-    font-family: 'Mohave', sans-serif;
-    margin: 0;
+* {
+  box-sizing: border-box;
 }
 
-h1 {font-family: 'Amatic SC', cursive;
-    color: #004a5f;
-    font-style: bold;
+body {
+  display: block;
+  background-color: #ccffff;
+  color: #333333;
+  font-family: "Mohave", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Amatic SC", cursive;
+  color: #004a5f;
+  font-style: bold;
 }
 
 header,
 main,
-aside,
 footer {
-    text-align: center;
+  text-align: center;
 }
 
 /*Start Navigation*/
 header img {
-      width: 20%;
-      min-width: 200px;
-      height: 100%;
-      margin: 30px 0;
-    }
-
-    nav {
-      background-color: #004a5f;
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      color: white;
-    }
-
-    nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      flex-direction: column;
-      display: none;
-    }
-    nav li a {
-      padding: 15px;
-      display: inline-block;
-      text-decoration: none;
-      font-size: 1.5rem;
-      color: #004a5f;
-  }
-  nav li a:hover {
-        color: black;
-  }
-
-    .show-items {
-      display: flex;
-    }
-
-    nav .toggle {
-      align-self: flex-end;
-      position: absolute;
-      cursor: pointer;
-    }
-
-    nav a {
-      color: white !important;
-      /* Remember to remove !important and remove the nav a color in the stylesheet */
-    }
- 
-    .hero img {
-      object-fit: cover;
-    width: 100%;
-    height: 40vh;
-    z-index: -1;
-    position: absolute;
-    }
-
-    .hero h1 {
-    width: 100%;
-    height: 40vh;
-    text-align: center;
-    color: white;
-    font-size: 3rem;
-    margin-top: 0;
-    padding-top: 5vh;
-    }
-
-    .footer-wrapper {
-      padding: 40px 0;
-    }
-
-footer {
-    border: 2px solid #004a5f;
-    background-color:#004a5f;
-    color:aliceblue;
-    margin-bottom: 10px;
-    border-radius: 5px;
+  width: 20%;
+  min-width: 200px;
+  height: 100%;
+  margin: 30px 0;
 }
+
+nav {
+  background-color: #004a5f;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  display: none;
+}
+nav li a {
+  padding: 15px;
+  display: flex;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+}
+nav li a:hover {
+  color: black;
+}
+
+.show-items {
+  display: flex;
+}
+
+nav .toggle {
+  align-self: flex-end;
+  position: absolute;
+  cursor: pointer;
+}
+
+.hero img {
+  object-fit: cover;
+  width: 100%;
+  height: 40vh;
+  z-index: -1;
+  position: absolute;
+}
+
+.hero h1 {
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  margin-top: 0;
+  padding-top: 5vh;
+}
+
 .footer-wrapper {
   padding: 40px 0;
 }
+
+footer {
+  border: 2px solid #004a5f;
+  background-color: #004a5f;
+  color: aliceblue;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   nav .menu-label {
@@ -123,7 +117,6 @@ footer {
 }
 
 @media only screen and (min-width: 1024px) {
-
   nav ul,
   main,
   .footer-wrapper {
@@ -134,59 +127,59 @@ footer {
 /*Quote Styles*/
 /*Form Controls*/
 .input {
-    font-size: 1em;
-  }
-  
+  font-size: 1em;
+}
+
 input[type="text"] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
 input[type="email"] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 input[type="tel"] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 input[type="number"] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-   input[type="date"] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
- .label-required {
-    font-size: 1rem;
-    color: rgb(192, 99, 99);
-  }
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="date"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.label-required {
+  font-size: 1rem;
+  color: rgb(192, 99, 99);
+}
 
 /*Buttons*/
 input[type="reset"] {
@@ -221,71 +214,71 @@ input[type="submit"]:hover {
   border: 1px solid #004a5f;
 }
 /*Structure*/
-  
+
 .wrapper-form {
-    border-radius: 20px;
-    background-color: #004a5f;
-    color: white;
-    padding: 20px;
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
+  border-radius: 20px;
+  background-color: #004a5f;
+  color: white;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 .wrapper-button {
-    display: flex;
-    justify-content: center;
-  }
+  display: flex;
+  justify-content: center;
+}
 /*Index Styles*/
 .About-Us {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
 }
 .Client-Testimonials {
-    display: flex; 
-    flex-direction: column;
-    margin: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
 }
 .test1 {
-background-color: white;
-color: #004a5f;
-border: 2px solid #004a5f;
-border-radius: 5px;
-padding: 20px;
+  background-color: white;
+  color: #004a5f;
+  border: 2px solid #004a5f;
+  border-radius: 5px;
+  padding: 20px;
 }
 .test2 {
-background-color: white;
-color: #004a5f;
-border: 2px solid #004a5f;
-border-radius: 5px;
-padding: 20px;
+  background-color: white;
+  color: #004a5f;
+  border: 2px solid #004a5f;
+  border-radius: 5px;
+  padding: 20px;
 }
 aside {
-    background-color: #13f3f3;
-    color: #004a5f;
-    padding: 12px 20px;
-    margin: 20px 100px 20px 100px;
-    border: 1px solid #004a5f;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px;
-    cursor: pointer;
+  background-color: #13f3f3;
+  color: #004a5f;
+  padding: 12px 20px;
+  margin: 20px 100px 20px 100px;
+  border: 1px solid #004a5f;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px;
+  cursor: pointer;
 }
 /*Geo Styles*/
 h3 {
-    text-align: center;
+  text-align: center;
 }
 /*Travel Styles* - I copied the select list from the Canadian Government Travel advisory website. https://travel.gc.ca/travelling/advisories */
 
 input[type="Go!"] {
-    background-color: #ccffff;
-    color: #004a5f;
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
-    border: 3px solid #004a5f;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+  background-color: #ccffff;
+  color: #004a5f;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border: 3px solid #004a5f;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
 /*store and start again
 
@@ -316,10 +309,6 @@ footer {
     
 /*Index styles*/
 
-
- 
-
-
 /*Start Navigation
 nav .wrapper {
     width: 800px;
@@ -345,6 +334,3 @@ nav li a:hover {
       color: black;
 }
 /*End Navigation*/
-
-
-
