@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Bradley Travel and Tours</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap"   
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet"/>
-  </head>
+     <head>
+  <title>Bradley Travel and Tours</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@300&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
   
   <body>
     <header>
-        <h1>Seek &nbsp;~ Explore &nbsp;~ Discover &nbsp;~ Dream &nbsp;</h1>
+      <img src="images/Logo.png" alt="Bradley Tours logo" width="583">
     </header>
-                        
     <nav>
-        <ul>
-        <li><a href="btt.html">Home</a> &nbsp;</li>
+      <div class="menu-label">Menu</div>
+      <ul id="nav-items">
+        <li><a href="index.html">Home</a> &nbsp;</li>
         <li><a href="travel.html">Travel Advisories</a> &nbsp;</li>
         <li><a href="geo.html">Geocaching Trips</a> &nbsp;</li>
         <li><a href="quote.html">Request a Quote</a> &nbsp;</li>
       </ul>
-    </nav>
+      <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
+    </nav> 
+    <div class="hero">
+      <img src="images/Tahitiweb.png" alt="Tahiti">
+      <h1>Seek &nbsp;~ Explore &nbsp;~ Discover &nbsp;~ Dream &nbsp;</h1>
+    </div>             
     <main>
+      
           <article>
-          <h2>About Us</h2>
+          <h2>Welcome to Bradley Travel and Tours</h2>
           <section class="About-Us">
-            <div class="abouttara">
+            <div class="abouttara">                      
           <p>
             Bradley Travel and Tours is a small boutique travel agency in
             Shawnigan Lake, B.C., owned and operated by Tara Bradley, a travel
@@ -46,10 +50,10 @@
             their adventures. It’s important to me that my clients have the best
             possible experience, and I want to share my knowledge and
             experience.”
-            <hr>
           </p>
-        </div>
-        </section>         
+          </div>
+          </section> 
+
         <h2>Testimonials</h2>
         <section class="Client-Testimonials">
         <div class="test1">
@@ -84,15 +88,16 @@
           </p>
         </div>
       </section>
-      <aside id="ctabutton">
-        “Planning a getaway, business trip, or family vacation? Sign up for our
-        free newsletter for stories, deals and inspiration!”
-      </aside>
+      <form action="quote.html">
+        <button type="submit">Sign up today!</button>
+      </form>
   </article>
     </main>
     <br>
     <footer>
+      <div class="footer-wrapper">
       “This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.”
+    </div>
     </footer>
   </body>
 </html>
