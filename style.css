@@ -44,6 +44,7 @@ nav ul {
   padding: 0;
   flex-direction: column;
   display: none;
+  justify-content: space-between;
 }
 nav li a {
   padding: 15px;
@@ -51,6 +52,7 @@ nav li a {
   text-decoration: none;
   font-size: 1.5rem;
   color: white;
+  justify-content: space-between;
 }
 nav li a:hover {
   color: black;
@@ -65,7 +67,9 @@ nav .toggle {
   position: absolute;
   cursor: pointer;
 }
+/*End of navigation*/
 
+/*Hero Image*/
 .hero img {
   object-fit: cover;
   width: 100%;
@@ -83,6 +87,20 @@ nav .toggle {
   margin-top: 0;
   padding-top: 5vh;
 }
+.About-Us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tara img {
+  width: 50%;
+  margin: 20px;
+  flex: 3;
+ }
+.paragraph1 {
+  text-align: left;
+  flex: 7;
+  }
 
 .footer-wrapper {
   padding: 40px 0;
@@ -114,7 +132,15 @@ footer {
   nav .toggle {
     display: none;
   }
+  .About-Us {
+    flex-direction: row;
+  }
+  .About-Us img {
+    width:fit-content;
+  }
+
 }
+
 
 @media only screen and (min-width: 1024px) {
   nav ul,
@@ -229,11 +255,7 @@ input[type="submit"]:hover {
   justify-content: center;
 }
 /*Index Styles*/
-.About-Us {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-}
+
 .Client-Testimonials {
   display: flex;
   flex-direction: column;
@@ -253,7 +275,7 @@ input[type="submit"]:hover {
   border-radius: 5px;
   padding: 20px;
 }
-aside {
+.button {
   background-color: #13f3f3;
   color: #004a5f;
   padding: 12px 20px;
@@ -280,57 +302,5 @@ input[type="Go!"] {
   cursor: pointer;
 }
 
-/*store and start again
 
 
-/*The hero image
- .hero-image {
-background-image: url("images/tahitiweb3.jpg");
-height: 100%;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-}
-
-.hero-text {
-   text-align: center;
-   position: absolute;
-   font-family: 'Amatic SC', cursive;
-   color: #004a5f;
-   font-style: bold;
-   }
-
-
-footer {
-    background-color: #004a5f;
-    color: white;
-}
-    
-/*Index styles*/
-
-/*Start Navigation
-nav .wrapper {
-    width: 800px;
-    margin: auto;
-    padding: 0 15px;
-}
-  
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-nav li a {
-    padding: 15px;
-    display: inline-block;
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: #004a5f;
-}
-nav li a:hover {
-      color: black;
-}
-/*End Navigation*/
