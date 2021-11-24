@@ -283,8 +283,8 @@ input[type="submit"]:hover {
   cursor: pointer;
 }
 /*Geo Styles*/
-h3 {
-  text-align: center;
+.geobanner img{
+  width: 50%;
 }
 /*Travel Styles* - I copied the select list from the Canadian Government Travel advisory website. https://travel.gc.ca/travelling/advisories */
 
