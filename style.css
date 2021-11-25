@@ -1,3 +1,4 @@
+/*General Styles*/
 * {
   box-sizing: border-box;
 }
@@ -70,6 +71,27 @@ nav .toggle {
 }
 /*End of navigation*/
 
+/*Index Styles*/
+
+.index .Client-Testimonials {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.index .test1 {
+  background-color: white;
+  color: #004a5f;
+  border: 2px solid #004a5f;
+  border-radius: 5px;
+  padding: 20px;
+}
+.index .test2 {
+  background-color: white;
+  color: #004a5f;
+  border: 2px solid #004a5f;
+  border-radius: 5px;
+  padding: 20px;
+}
 /*Hero Image*/
 .hero img {
   object-fit: cover;
@@ -222,19 +244,19 @@ input[type="submit"]:hover {
 
 /*Index Styles*/
 
-.Client-Testimonials {
+.index .Client-Testimonials {
   display: flex;
   flex-direction: column;
   margin: 20px;
 }
-.test1 {
+.index .test1 {
   background-color: white;
   color: #004a5f;
   border: 2px solid #004a5f;
   border-radius: 5px;
   padding: 20px;
 }
-.test2 {
+.index .test2 {
   background-color: white;
   color: #004a5f;
   border: 2px solid #004a5f;
@@ -244,18 +266,18 @@ input[type="submit"]:hover {
 
 /*Geo Styles*/
 
-li {
+.travel li {
   list-style-type: none;
 }
 /*Travel Styles* - I copied the select list from the Canadian Government Travel advisory website. https://travel.gc.ca/travelling/advisories */
-h3 {
+.travel h3 {
   width: 100%;
   height: 40vh;
   text-align: center;
   color: aqua;
   font-size: 1.5rem;
   }
-.flag img {
+.travel .flag img {
   object-fit: cover;
   width: 100%;
   height: 60vh;
@@ -263,7 +285,7 @@ h3 {
   position: absolute;
   padding-bottom: 20px;
 }
-input[type="Go!"] {
+.travel input[type="Go!"] {
   background-color: #ccffff;
   color: #004a5f;
   padding: 20px;
