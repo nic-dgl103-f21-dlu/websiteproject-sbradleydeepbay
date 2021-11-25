@@ -130,7 +130,8 @@ footer {
   }
   .About-Us {
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
   }
   .tara img {
     width: 50%;
@@ -247,10 +248,7 @@ input[type="submit"]:hover {
   margin: 10px auto;
 }
 
-.wrapper-button {
-  display: flex;
-  justify-content: center;
-}
+
 /*Index Styles*/
 
 .Client-Testimonials {
@@ -276,6 +274,9 @@ input[type="submit"]:hover {
 /*Geo Styles*/
 .geobanner img{
   width: 50%;
+}
+img {
+  width: 50%
 }
 /*Travel Styles* - I copied the select list from the Canadian Government Travel advisory website. https://travel.gc.ca/travelling/advisories */
 
