@@ -66,6 +66,7 @@ nav .toggle {
   align-self: flex-end;
   position: absolute;
   cursor: pointer;
+  color: white;
 }
 /*End of navigation*/
 
@@ -110,35 +111,6 @@ footer {
   border-radius: 5px;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  nav .menu-label {
-    display: none;
-  }
-
-  nav ul {
-    display: flex;
-    flex-direction: row;
-  }
-
-  nav ul li {
-    padding-right: 8px;
-  }
- 
-  nav .toggle {
-    display: none;
-  }
-}
-
-
-@media only screen and (min-width: 1024px) {
-  nav ul,
-  main,
-  .footer-wrapper {
-    width: 1000px;
-    margin: 0 auto;
-  }
-}
 /*Quote Styles*/
 /*Form Controls*/
 .input {
@@ -314,7 +286,6 @@ input[type="Go!"] {
   nav .toggle {
     display: none;
   }
-
 
 }
 
