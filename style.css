@@ -11,12 +11,6 @@ body {
   margin: 0;
 }
 
-h1 {
-  font-family: "Amatic SC", cursive;
-  color: #004a5f;
-  font-style: bold;
-}
-
 header,
 main,
 footer {
@@ -113,6 +107,8 @@ footer {
 .index .hero h1 {
   width: 100%;
   height: 40vh;
+  font-family: "Amatic SC", cursive;
+  font-style: bold;
   text-align: center;
   color: white;
   font-size: 3rem;
@@ -129,15 +125,66 @@ footer {
 .index .paragraph1 {
   margin: 10px 20px;
 }
-
-/*Quote Styles*/
-.quote .globe img {
+/*Travel Styles* - I copied the select list from the Canadian Government Travel advisory website. https://travel.gc.ca/travelling/advisories */
+.travel h3 {
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+  color: aqua;
+  font-size: 1.5rem;
+  }
+.travel .hero2 img {
+  object-fit: cover;
+  width: 100%;
+  height: 60vh;
+  z-index: -1;
+  position: absolute;
+  padding-bottom: 20px;
+}
+.travel input[type="submit"] {
+  background-color: #ccffff;
+  color: #004a5f;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border: 3px solid #004a5f;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.travel .button {
+  margin:100 px;
+}
+/*Geo Styles*/
+.geo .hero3 img {
   object-fit: cover;
   width: 100%;
   height: 60vh;
   z-index: -1;
   position: absolute;
   padding-bottom: 100px;
+}
+.geo.quote h2 {
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+  color: #004a5f;
+  font-size: 1.5rem;
+}
+/*Quote Styles*/
+.quote .hero4 img {
+  object-fit: cover;
+  width: 100%;
+  height: 60vh;
+  z-index: -1;
+  position: absolute;
+  padding-bottom: 100px;
+}
+.quote h2 {
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+  color: #004a5f;
+  font-size: 1.5rem;
 }
 /*Form Controls*/
 .quote .input {
@@ -235,63 +282,12 @@ footer {
   color: white;
   padding: 20px;
   max-width: 500px;
-  margin: 200px auto;
-}
-
-
-/*Index Styles*/
-
-.index .Client-Testimonials {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-}
-.index .test1 {
-  background-color: white;
-  color: #004a5f;
-  border: 2px solid #004a5f;
-  border-radius: 5px;
-  padding: 20px;
-}
-.index .test2 {
-  background-color: white;
-  color: #004a5f;
-  border: 2px solid #004a5f;
-  border-radius: 5px;
-  padding: 20px;
+  margin: 50px auto;
 }
 
 /*Geo Styles*/
 
-.travel li {
-  list-style-type: none;
-}
-/*Travel Styles* - I copied the select list from the Canadian Government Travel advisory website. https://travel.gc.ca/travelling/advisories */
-.travel h3 {
-  width: 100%;
-  height: 40vh;
-  text-align: center;
-  color: aqua;
-  font-size: 1.5rem;
-  }
-.travel .flag img {
-  object-fit: cover;
-  width: 100%;
-  height: 60vh;
-  z-index: -1;
-  position: absolute;
-  padding-bottom: 20px;
-}
-.travel input[type="Go!"] {
-  background-color: #ccffff;
-  color: #004a5f;
-  padding: 20px;
-  margin: 20px;
-  text-align: center;
-  border: 3px solid #004a5f;
-  border-radius: 4px;
-  cursor: pointer;
-}
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
