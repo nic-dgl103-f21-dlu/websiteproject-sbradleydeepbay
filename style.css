@@ -23,14 +23,13 @@ footer {
   text-align: center;
 }
 
-/*Start Navigation*/
 header img {
   width: 20%;
   min-width: 200px;
   height: 100%;
   margin: 20px 0;
 }
-
+/*Start Navigation*/
 nav {
   background-color: #004a5f;
   padding: 10px;
@@ -70,6 +69,16 @@ nav .toggle {
   color: white;
 }
 /*End of navigation*/
+footer {
+  border: 2px solid #004a5f;
+  background-color: #004a5f;
+  color: aliceblue;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.footer-wrapper {
+  padding: 40px 0;
+}
 
 /*Index Styles*/
 
@@ -93,7 +102,7 @@ nav .toggle {
   padding: 20px;
 }
 /*Hero Image*/
-.hero img {
+.index .hero img {
   object-fit: cover;
   width: 100%;
   height: 40vh;
@@ -101,7 +110,7 @@ nav .toggle {
   position: absolute;
 }
 
-.hero h1 {
+.index .hero h1 {
   width: 100%;
   height: 40vh;
   text-align: center;
@@ -110,31 +119,19 @@ nav .toggle {
   margin-top: 0;
   padding-top: 5vh;
 }
-.About-Us {
+.index .About-Us {
   display: flex;
   flex-direction: column;
  }
-.tara img {
+.index .tara img {
   width: 25%;
 }
-.paragraph1 {
+.index .paragraph1 {
   margin: 10px 20px;
 }
 
-.footer-wrapper {
-  padding: 40px 0;
-}
-
-footer {
-  border: 2px solid #004a5f;
-  background-color: #004a5f;
-  color: aliceblue;
-  margin-bottom: 10px;
-  border-radius: 5px;
-}
-
 /*Quote Styles*/
-.globe img {
+.quote .globe img {
   object-fit: cover;
   width: 100%;
   height: 60vh;
@@ -143,11 +140,11 @@ footer {
   padding-bottom: 100px;
 }
 /*Form Controls*/
-.input {
+.quote .input {
   font-size: 1em;
 }
 
-input[type="text"] {
+.quote input[type="text"] {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -157,7 +154,7 @@ input[type="text"] {
   resize: vertical;
 }
 
-input[type="email"] {
+.quote input[type="email"] {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -166,7 +163,7 @@ input[type="email"] {
   margin-bottom: 16px;
   resize: vertical;
 }
-input[type="tel"] {
+.quote input[type="tel"] {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -175,7 +172,7 @@ input[type="tel"] {
   margin-bottom: 16px;
   resize: vertical;
 }
-input[type="number"] {
+.quote input[type="number"] {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -184,7 +181,7 @@ input[type="number"] {
   margin-bottom: 16px;
   resize: vertical;
 }
-input[type="date"] {
+.quote input[type="date"] {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -193,13 +190,13 @@ input[type="date"] {
   margin-bottom: 16px;
   resize: vertical;
 }
-.label-required {
+.quote .label-required {
   font-size: 1rem;
   color: rgb(192, 99, 99);
 }
 
 /*Buttons*/
-input[type="reset"] {
+.quote input[type="reset"] {
   background-color: #ccffff;
   color: #004a5f;
   padding: 12px 20px;
@@ -209,13 +206,13 @@ input[type="reset"] {
   cursor: pointer;
 }
 
-input[type="reset"]:hover {
+.quote input[type="reset"]:hover {
   background-color: #004a5f;
   color: #ccffff;
   border: 1px solid;
 }
 
-input[type="submit"] {
+.quote input[type="submit"] {
   background-color: #004a5f;
   color: white;
   padding: 12px 20px;
@@ -225,7 +222,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+.quote input[type="submit"]:hover {
   background-color: #ccffff;
   color: #004a5f;
   border: 1px solid #004a5f;
