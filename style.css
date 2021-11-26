@@ -126,21 +126,27 @@ footer {
   margin: 10px 20px;
 }
 /*Travel Styles* - I copied the select list from the Canadian Government Travel advisory website. https://travel.gc.ca/travelling/advisories */
-.travel h3 {
-  width: 100%;
-  height: 40vh;
-  text-align: center;
-  color: aqua;
-  font-size: 1.5rem;
-  }
+
 .travel .hero2 img {
   object-fit: cover;
   width: 100%;
-  height: 60vh;
+  height: 40vh;
   z-index: -1;
   position: absolute;
-  padding-bottom: 20px;
 }
+
+.travel .hero2 h1 {
+  width: 100%;
+  height: 40vh;
+  font-family: "Amatic SC", cursive;
+  font-style: bold;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  margin-top: 0;
+  padding-top: 5vh;
+}
+
 .travel input[type="submit"] {
   background-color: #ccffff;
   color: #004a5f;
@@ -158,17 +164,27 @@ footer {
 .geo .hero3 img {
   object-fit: cover;
   width: 100%;
-  height: 60vh;
+  height: 40vh;
   z-index: -1;
   position: absolute;
-  padding-bottom: 100px;
 }
-.geo.quote h2 {
+
+.geo .hero3 h1 {
   width: 100%;
   height: 40vh;
+  font-family: "Work Sans",HelveticaNeue,"Helvetica Neue",sans-serif;
+  font-style: bold;
   text-align: center;
   color: #004a5f;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin-top: 0;
+  padding-top: 18vh;
+}
+.geo li {
+  list-style-type: none;
+}
+.geo .geolinks img {
+  width: 25%;
 }
 /*Quote Styles*/
 .quote .hero4 img {
@@ -179,13 +195,18 @@ footer {
   position: absolute;
   padding-bottom: 100px;
 }
-.quote h2 {
+.quote .hero4 h1 {
   width: 100%;
   height: 40vh;
+  font-family: "Amatic SC", cursive;
+  font-style: bold;
   text-align: center;
-  color: #004a5f;
-  font-size: 1.5rem;
+  color: white;
+  font-size: 3rem;
+  margin-top: 0;
+  padding-top: 5vh;
 }
+ 
 /*Form Controls*/
 .quote .input {
   font-size: 1em;
@@ -284,11 +305,7 @@ footer {
   max-width: 500px;
   margin: 50px auto;
 }
-
-/*Geo Styles*/
-
-
-
+/*The following media queries are added so that the navigation list turns into a full horizontal list (in a flex container)on medium and large screens.  The pages were styled for mobile first, where the menu label and hamburger icon would show with a vertical nav list that shows when toggled.*/
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   nav .menu-label {

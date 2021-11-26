@@ -22,9 +22,10 @@
   </head>
 <!--I used 2 google fonts above, Mohave and Amatic-->
   <body class="index">
+    <!--The header is styled the same for each page with the logo, address and with a min-width of 200px so it doesn't gte too small to read.-->
     <header>
       <img src="images/Logo.png" alt="Bradley Tours logo" width="583" />
-      <h5>1752 Shawnigan-Mill Bay Rd, Shawnigan Lake, B.C. V0R 2W0</h5>
+      <p>1752 Shawnigan-Mill Bay Rd, Shawnigan Lake, B.C. V0R 2W0</p>
       
     </header>
     <!--For the nav, I wanted the hamburger and menu label to show up for responsiveness in the smaller screens, rather than the whole unordered list. The javascript at the bottom of index.html is used so when the hamburger is clicked the full nav ul comes up vertically.-->
@@ -38,6 +39,7 @@
       </ul>
       <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
     </nav>
+    <!--I coded a separate div class for each page so I  could style a bit differently in each if I wanted to.-->
     <div class="hero">
       <img src="images/Tahitiweb.png" alt="Tahiti" />
       <h1>Seek &nbsp;~ Explore &nbsp;~ Discover &nbsp;~ Dream &nbsp;</h1>
@@ -100,15 +102,14 @@
           </p>
         </div>
       </section>
-    <!-- When the button is clicked (sign up today) the user will be sent to "request a Qoute" page-->
+    <!-- When the button is clicked (sign up today) the user will be sent to "request a Quote" page-->
       <form action="quote.html">
         <div class="button">
           <button type="submit">Sign up today!</button>
         </div>
       </form>
     </main>
-    <br />
-    <footer>
+       <footer>
       <div class="footer-wrapper">
         “This is a fictional website that was designed and coded as an
         educational exercise. It is not intended to be seen outside of the class
